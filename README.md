@@ -6,6 +6,8 @@ It uses an **urban-dictionary api** to look up the *word* with its *meaning/phra
 
 <p align="center">
   <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s1.png" width="300">
+</p>
+<p align="center">  
   <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s2.png" width="300">
   <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s3.png" width="300">
 </p>

@@ -1,16 +1,28 @@
-# learning_words
+# Learning Words
 
-A new Flutter project.
+An android app built with flutter that can be helpful in learning new words with their *meanings/definitions*.
 
-## Getting Started
+It uses an **urban-dictionary api** to look up the *word* with its *meaning/phrase*.
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s1.png" width="300">
+  <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s2.png" width="300">
+  <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s3.png" width="300">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  If that word intrigues you, you can add it to your daily list of words and even set a reminder on the app to send you local notifications periodically. You can even tap on the word added to the list to know how it's pronounced and long press on it to delete it.
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Uses sqflite & shared_preferences for local storage.
+- For sending notifications it makes use of awesome_notifications package & 
+  android_alarm_manager_plus to send them periodically.
+- flutter_tts package to convert text to speech to pronounce the word.
+- http for calling the api.
+  
+## Setting up a reminder
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s4.png" width="300">
+  <img src="https://github.com/ParvNarang/Learn-Words/blob/5bbcf8cad399cced354bddba1826dff3004d5600/screenshots/s5.png" width="300">
+</p>
